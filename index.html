@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Perkembangan Artificial Intelligence 2025</title>
+<style>
+  /* Reset & base */
+  * {
+    margin: 0; padding: 0; box-sizing: border-box;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f9fafb;
+    color: #222;
+    line-height: 1.6;
+  }
+  /* Navbar */
+  nav {
+    background: #e6e8eb; /* abu abu putih */
+    color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+  }
+  nav .logo {
+    font-size: 1.6rem;
+    color: #2c3e50;
+    user-select: none;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+  nav ul li {
+    cursor: pointer;
+    color: #34495e;
+    position: relative;
+    transition: color 0.3s ease;
+  }
+  nav ul li:hover {
+    color: #2980b9;
+  }
+  nav ul li::after {
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #2980b9;
+    transition: width 0.3s ease;
+  }
+  nav ul li:hover::after {
+    width: 100%;
+  }
+
+  /* Main */
+  main {
+    max-width: 960px;
+    margin: 4rem auto 6rem auto;
+    padding: 0 1rem;
+  }
+  main h1 {
+    font-size: 2.8rem;
+    color: #2980b9;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    animation: fadeInDown 0.9s ease forwards;
+  }
+  main p.intro {
+    font-size: 1.2rem;
+    color: #555d6e;
+    margin-bottom: 2rem;
+  }
+  main section {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 24px rgba(41,128,185,0.12);
+    padding: 2rem 2.5rem;
+    margin-bottom: 3rem;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeInUp 1s ease forwards;
+  }
+  main section:nth-child(2) { animation-delay: 0.15s;}
+  main section:nth-child(3) { animation-delay: 0.3s;}
+  main section:nth-child(4) { animation-delay: 0.45s;}
+  main section:nth-child(5) { animation-delay: 0.6s;}
+  main section:nth-child(6) { animation-delay: 0.75s;}
+
+  main h2 {
+    color: #2c3e50;
+    margin-bottom: 0.8rem;
+    font-weight: 700;
+    border-left: 5px solid #2980b9;
+    padding-left: 0.6rem;
+  }
+  main p {
+    font-size: 1.1rem;
+    color: #555d6e;
+    margin-bottom: 1rem;
+  }
+  main img {
+    width: 100%;
+    max-height: 280px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(41,128,185,0.18);
+    margin-top: 1rem;
+    transition: transform 0.4s ease;
+  }
+  main img:hover {
+    transform: scale(1.04);
+  }
+
+  /* Footer */
+  footer {
+    background: #e6e8eb;
+    color: #2c3e50;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    box-shadow: inset 0 1px 0 #bec5cc;
+    user-select: none;
+  }
+  footer .contact {
+    margin: 0.3rem 0;
+  }
+
+  /* Animations */
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0; transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1; transform: translateY(0);
+    }
+  }
+  @keyframes fadeInUp {
+    to {
+      opacity: 1; transform: translateY(0);
+    }
+  }
+
+  /* Responsive */
+  @media (max-width: 720px) {
+    nav ul {
+      gap: 1rem;
+    }
+    main h1 {
+      font-size: 2rem;
+    }
+    main section {
+      padding: 1.5rem 1.5rem;
+    }
+    main img {
+      max-height: 220px;
+    }
+  }
+</style>
+</head>
+<body>
+  <nav>
+    <div class="logo">AI Insight 2025</div>
+    <ul>
+      <li>Beranda</li>
+      <li>Sejarah</li>
+      <li>Masa Kini</li>
+      <li>Masa Depan</li>
+      <li>Kontak</li>
+    </ul>
+  </nav>
+  <main>
+    <h1>Perkembangan Artificial Intelligence dari Awal hingga 2025</h1>
+    <p class="intro">Artificial Intelligence (AI) adalah cabang ilmu komputer yang berfokus pada pengembangan sistem yang dapat melakukan tugas yang biasanya memerlukan kecerdasan manusia. Sejak awal kemunculannya, AI telah mengalami perkembangan yang pesat dan mengubah banyak aspek kehidupan kita.</p>
+
+    <section>
+      <h2>1950-an: Awal Mula Konsep AI</h2>
+      <p>Pada dekade ini, konsep AI mulai diperkenalkan oleh pionir seperti Alan Turing dan John McCarthy yang mencetuskan istilah "Artificial Intelligence". Fokus pada algoritma dasar dan mesin yang bisa meniru cara berpikir manusia.</p>
+      <img src="https://i.ytimg.com/vi/XuN8OQA_oq4/maxresdefault.jpg" alt="Alan Turing" />
+    </section>
+
+    <section>
+      <h2>1960-70an: Perkembangan Sistem Pakar dan Pembelajaran Awal</h2>
+      <p>Penelitian sistem pakar dan pembelajaran mesin dimulai, terutama pada bidang pemrosesan bahasa alami dan permainan komputer. Program seperti ELIZA menjadi bukti konsep interaksi manusia-mesin.</p>
+      <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147721897/images/f8b5471-3c8a-c687-cd57-7610afa1aba0_cffb4f0a-3801-40f2-8d2a-3ee099952285.png" alt="ELIZA Chatbot Screenshot" />
+    </section>
+
+    <section>
+      <h2>1980-an: Jaringan Saraf Tiruan dan Pembelajaran Mendalam Awal</h2>
+      <p>AI mengalami perkembangan dengan diperkenalkannya algoritma jaringan saraf tiruan (ANN) dan mulai diterapkan dalam pengenalan pola dan masalah klasifikasi.</p>
+      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTfz_YMyIE-3LyHNeQuEJTfDZMoweSfiNSagoLlBhaBu_Mipo4hL7YmVsq8gMTCQDYgNOfOIHGR43FBTiBn6yykMs91QfsDVn3xgPUaNVzfuAJWJRBZ5xAG1-CVNuvIQhQOrKZsU-pRjYUYVkuTGKiT-fZFJvNLpAqHdUY4SVqHow8Cocq8kXCTYskfw/w1200-h630-p-k-no-nu/jst.png" alt="Jaringan Saraf Tiruan" />
+    </section>
+
+    <section>
+      <h2>2000-an: Big Data dan Peningkatan Komputasi</h2>
+      <p>Dengan kemajuan komputasi dan tersedia data besar, AI mulai banyak dipakai dalam computer vision, speech recognition, dan rekomendasi yang semakin akurat.</p>
+      <img src="https://portalpublikasi.id/wp-content/uploads/2023/05/image-134.png" alt="AI Big Data" />
+    </section>
+
+    <section>
+      <h2>2010-an: Renaissance Deep Learning dan NLP</h2>
+      <p>Terobosan teknologi deep learning dan natural language processing memungkinkan AI mencapai hasil luar biasa dalam generasi bahasa, pengenalan gambar, dan asisten virtual.</p>
+      <img src="https://statik.unesa.ac.id/profileunesa_konten_statik/uploads/s3pendidikandasar.pasca.unesa.ac.id/thumbnail/881d4757-0481-4535-a2cd-d10d3efc6231.jpg" alt="Deep Learning AI" />
+    </section>
+
+    <section>
+      <h2>2020-2025: Integrasi AI di Berbagai Bidang</h2>
+      <p>AI semakin terintegrasi di sektor kesehatan, otomotif, pendidikan, hiburan dengan model generatif, asisten cerdas dan inovasi berkelanjutan yang mengubah dunia.</p>
+      <img src="https://img.freepik.com/premium-photo/modern-technology-connections-generative-ai_776674-542508.jpg" alt="Modern AI Technology" />
+    </section>
+
+    <section>
+      <h2>Penutup</h2>
+      <p>Perkembangan AI menunjukkan potensi yang luar biasa dalam mengubah cara kita hidup dan bekerja. Dengan kemajuan yang terus berlanjut, masa depan AI menjanjikan inovasi yang lebih besar dan dampak yang lebih luas di berbagai bidang.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="contact">📞 +62 813 4410 2154</div>
+    <div>Dibuat oleh : Adrian Ferdinandus dan Aldo Gabriel Syahailatua</div>
+  </footer>
+
+<script>
+  // Nav interaction demo: alert on click
+  document.querySelectorAll('nav ul li').forEach(item =>{
+    item.addEventListener('click', () => {
+      alert('Navigasi ini hanya demo, silakan scroll halaman untuk melihat konten.');
+    });
+  });
+
+  // Animate sections on scroll for smooth reveal
+  const sections = document.querySelectorAll('main section');
+  const observerOptions = { threshold: 0.15 };
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        entry.target.style.opacity = '1';
+        entry.target.style.transform = 'translateY(0)';
+      }
+    });
+  }, observerOptions);
+  sections.forEach(sec => observer.observe(sec));
+</script>
+</body>
+</html>
